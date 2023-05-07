@@ -19,11 +19,13 @@
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: Create a Resource Group
-- Step 2: Create a Virtual Network and Subnet
-- Step 3: Create the Domain Controller VM
-- Step 4: Set the Domain Controller's NIC Private IP address to STATIC
-- Step 5: Create the Client VM
+<ul>
+  <li type =circle>Create a Resource Group<br>
+  <li type =circle>Create a Virtual Network and Subnet<br>
+  <li type =circle>Create the Domain Controller VM<br>
+  <li type =circle>Set the Domain Controller's NIC Private IP address to STATIC<br>  
+  <li type =circle>Create the Client VM<br>
+</ul>
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -69,4 +71,5 @@ Click "Review + create"
 <img src="https://imgur.com/yyZeAKR.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>  
 
   <br>
- <li></li> 
+<li>To crate the Client VM go back to Virtual machines and Click "Create"</li> 
+<li>Under Resource group use the group as before (AD-Test)</li> 
