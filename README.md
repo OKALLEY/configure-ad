@@ -68,8 +68,18 @@ Click "Review + create"
 <li>Here you will find the Private IP address is set to Dynamic. Click on it to change this Assignment to Static</li> 
 <img src="https://imgur.com/w6jyuAT.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
 <li>Click on "Static" and then "Save"</li>  
-<img src="https://imgur.com/yyZeAKR.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>  
+<img src="https://imgur.com/yyZeAKR.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
 
   <br>
 <li>To crate the Client VM go back to Virtual machines and Click "Create"</li> 
-<li>Under Resource group use the group as before (AD-Test)</li> 
+<li>Under "Resource group" use the same resource group as before (AD-Test)</li> 
+<li>Give the Virtual machine a name (Client-1)</li>  
+<img src="https://imgur.com/kGcUcGO.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<li>As before enter a Username and Password</li>  
+<img src="https://imgur.com/yCyvkt7.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
+<li>Tick the box for "I confirm I have an eligible Windows 10/11 license"</li>
+<img src="https://imgur.com/pNr6jNR.png" height="70%" width="70%" alt="Disk Sanitization Steps"/> 
+<li>Note that when creating a virtual machine, a network interface will be created for you.</li> 
+<li>Click "Review + create" and after "Validation passed" appears click "Create"</li>  
+<img src="https://imgur.com/noOveGD.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
+
