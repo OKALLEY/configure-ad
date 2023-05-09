@@ -93,4 +93,6 @@ Click "Review + create"
 <img src="https://imgur.com/kkqEELP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 <li>Enter your credentials (e.g. Lab User and password you created)</li>
 <img src="https://imgur.com/yN57n7N.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
+<li>Click Yes and give it time to start up</li>
+<img src="https://imgur.com/fp8QNnZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 
