@@ -27,7 +27,7 @@
   <li type =circle>Create the Client VM<br>
 </ul>
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Set up Resources in Azure</h2>
 
 <p>
 <li>Login at portal.azure.com and go to Virtual machines. Click Create and choose "Azure virtual machine"</li>
@@ -82,4 +82,15 @@ Click "Review + create"
 <li>Note that when creating a virtual machine, a network interface will be created for you.</li> 
 <li>Click "Review + create" and after "Validation passed" appears click "Create"</li>  
 <img src="https://imgur.com/noOveGD.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>  
+
+<h2>Ensure Connectivity (between the Client and Domain Controller)</h2>
+
+<li>In Microsoft Azure go to Virtual machines and click on the domain controller, then copy the Public IP address (DC-1)</li>
+<img src="https://imgur.com/Y9bSITT.png" height="70%" width="70%" alt="Disk Sanitization Steps"/> 
+<li>In Windows click start and type: Remote Desktop Connection. (Mac users install Microsoft Remote Desktop)
+</li>
+<li>Paste in the Public IP address and click "Connect"</li>
+<img src="https://imgur.com/kkqEELP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
+<li>Enter your credentials (e.g. Lab User and password you created)</li>
+<img src="https://imgur.com/yN57n7N.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 
