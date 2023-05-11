@@ -17,7 +17,7 @@
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>High-Level View of Deployment and Configuration Steps</h2>
 
 <ul>
   <li type =circle>Create a Resource Group<br>
@@ -96,3 +96,22 @@ Click "Review + create"
 <li>Click Yes and give it time to start up</li>
 <img src="https://imgur.com/fp8QNnZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 
+<p>
+
+<li>CLick start and type "wf.msc" (or "firewall" and click <img src="https://imgur.com/GN1V1Hi.png" height="30%" width="30%" alt="Disk Sanitization Steps"/> 
+ </li>
+<li>Click on <img src=https://imgur.com/gIfU1lK.png" height="12%" width="12%" alt="Disk Sanitization Steps"/> </li>
+<li>Scroll over and at the top click "Protocol"</li>
+<li>Right click and "Enable Rule" for both ICMP Echo Request</li>
+<img src="https://imgur.com/Dz6rXMs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+<p>
+<Go back to Microsoft Azure and copy the Public IP address for Client-1 >  
+<Open a seperate instance of Remote Desktop and paste in the Public IP address>
+<li>Enter Username (Lab User) and password</li>
+<li>Click Start and type "cmd" and click on "Command Prompt App"</li>  
+<img src="https://imgur.com/R5il7kN.png" height="20%" width="20%" alt="Disk Sanitization Steps"/> 
+<li>Back in MicroSoft Azure go to Virtual machines and click on DC-1 and copy the Private IP address</li>
+<li>In your Remote Desktop connection for Client-1 in the command line paste the Public IP address type "ping -t" ahead of it</li>
+<li>Press enter to begin the ping and "control C" to end the ping</li>
+  <img src="https://imgur.com/G3QD6rZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
