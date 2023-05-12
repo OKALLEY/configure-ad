@@ -114,4 +114,14 @@ Click "Review + create"
 <li>Back in MicroSoft Azure go to Virtual machines and click on DC-1 and copy the Private IP address</li>
 <li>In your Remote Desktop connection for Client-1 in the command line paste the Public IP address type "ping -t" ahead of it</li>
 <li>Press enter to begin the ping and "control C" to end the ping</li>
-  <img src="https://imgur.com/G3QD6rZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/G3QD6rZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<h2>Install Active Directory</h2>  
+<li>Since you've had both Client-1 and DC-1 open, to confirm which one you are in,<br> go to Command Promt App and type "hostname" and tap enter. You want to be in DC-1</li>  
+<img src="https://imgur.com/3KTgwuP.png" height="45%" width="45%" alt="Disk Sanitization Steps"/> 
+
+  <br>  
+<li>If Server Manager isn't already open, click Start and click on Server Manager</li>  
+<img src="https://imgur.com/v3JLd1E.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+  
+
