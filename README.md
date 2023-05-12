@@ -158,5 +158,8 @@ Click "Review + create"
 <li>Select "More choices" and then "Use a different account"</li>
 <img src="https://imgur.com/cao75tl.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <li>Enter the domain name you created (e.g. mydomain.com\Lab User) and the password</li>
-<img src="https://imgur.com/FCuVSkW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/NPVWLEO.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Click "Yes"</li>  
+<img src="https://imgur.com/DdGp3MT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+  
 
