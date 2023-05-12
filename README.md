@@ -93,7 +93,7 @@ Click "Review + create"
 <img src="https://imgur.com/kkqEELP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 <li>Enter your credentials (e.g. Lab User and password you created)</li>
 <img src="https://imgur.com/yN57n7N.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
-<li>Click Yes and give it time to start up</li>
+<li>Click Yes and give it time to initialize</li>
 <img src="https://imgur.com/fp8QNnZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/> 
 
 <p>
@@ -124,4 +124,39 @@ Click "Review + create"
 <li>If Server Manager isn't already open, click Start and click on Server Manager</li>  
 <img src="https://imgur.com/v3JLd1E.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
   
+<li>Go to "Add roles and features"</li>
+<img src="https://imgur.com/1ROkuAI.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<li>Click Next to begin. Then Next again for Role based/feature based. <br> Next once more to choose DC-1 in the Server Section.</li>
+<li>Tick the box for "Active Directory Domain Services"</li>  
+<img src="https://imgur.com/PrVgtIM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Click "Add Features"</li>
+<li>Click "Next" through all the dependencies and lastly click "Install"</li> 
+<li>Give it some time to finish and then click "Close"</li>  
+<img src="https://imgur.com/6oGRCJy.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+  <br>
+<li>Back on the Server Manager Dashboard in the top right corner <br>find the yellow sign with an exclamation point in it and click on it.</li>
+<li>Click on "Promote this server to a domain controller"</li>  
+<img src="https://imgur.com/Zf2lKdH.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Click the radio button for "Add a new forest"</li>
+<li>Name your domain (e.g. mydomain.com)</li>
+<li>Click "Next >"</li>  
+<img src="https://imgur.com/RTMzxTB.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<li>Enter a password for Directory Services Restore Mode and confirm it and click "Next >"</li>
+<img src="https://imgur.com/DZDPw4o.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<li>For DNS Options click "Next >"</li> 
+<li>For Additional Options click "Next >" and again once it populates.</li>
+<img src="https://imgur.com/a5wqTtR.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<li>Next > for Paths, Next > for Review Options</li>
+<li>When all prerequisite checks pass, click "Install"</li>
+<img src="https://imgur.com/CdhEGrO.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<li>Once Installation is complete a restart is required. This may happen automatically.</li>
+<br>
+<li>This VM is now promoted to a Domain Controller which means when you sign back in you will need to use the appropriate credentials.</li>
+<li>Confirm the Public IP address and click "Connect"</li> 
+<img src="https://imgur.com/UfHSCo3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Select "More choices" and then "Use a different account"</li>
+<img src="https://imgur.com/cao75tl.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<li>Enter the domain name you created (e.g. mydomain.com\Lab User) and the password</li>
+<img src="https://imgur.com/FCuVSkW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
